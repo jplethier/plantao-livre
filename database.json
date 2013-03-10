@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "driver": "pg",
+    "user": "bpinto",
+    "host": "localhost",
+    "database": "medsapp"
+  },
+
+  "prod": {
+    "driver": "pg"
+  }
+}
