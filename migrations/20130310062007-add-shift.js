@@ -7,13 +7,15 @@ exports.up = function(db, callback) {
 
     city:        'string',
     contact:     'string',
+    createdAt:   'datatime',
     endDate:     'datetime',
     phoneNumber: 'string',
     place:       'string',
     remark:      'text',
     specialty:   'string',
     startDate:   'datetime',
-    state:       'string'
+    state:       'string',
+    updatedAt:   'datetime'
   }, callback);
 };
 
